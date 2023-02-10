@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html> 
+	<body bgcolor="FFFFE0">
+		<br>
+        <a href="frame_2.html" target="showframe">Home</a>
+        <br>
+        <br>
+        <br>
+        <a href="company_history_and_story.html" target="showframe">Company Story and History</a>
+        <br>
+        <br>
+        <br>
+        <a href="our_team.html" target="showframe">Management Team</a>
+        <br>
+        <br>
+        <br>
+        <a href="" target="showframe">Products</a>
+        <br>
+        <br>
+        <br>
+        <a href="services_page.html" target="showframe">Services</a>
+        <br>
+        <br>
+        <br>
+        <a href="" target="showframe">Customer Testimonials</a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <font size="4">
+        	<u>Last modified:</u>
+        	<br>
+        	<script>document.write(document.lastModified);</script>
+    	</font>
+    </body>
+</html>
