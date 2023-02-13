@@ -1,7 +1,7 @@
 
 <html>
     <frameset cols="200,*">
-        <frame src="Frame_1"></frame>
+        <frame src="Frame_1.htm"></frame>
         <frame src="Frame_2" name="showframe">
         </frame>
     </frameset>
