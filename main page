@@ -1,8 +1,0 @@
-<!DOCTYPE html>
-<html>
-    <frameset cols="200,*">
-        <frame src="Frame_1.htm"></frame>
-        <frame src="Frame_2.htm" name="showframe">
-        </frame>
-    </frameset>
-</html>
