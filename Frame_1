@@ -1,40 +1,40 @@
-<!DOCTYPE html> 
+_<!DOCTYPE html> 
 <html> 
 	<body bgcolor="FFFFE0">
 		<br>
-        <a href="frame_2.html" target="showframe">Home</a>
+        <a href="Frame_2.html" target="showframe">Home</a>
         <br>
         <br>
-        <a href="company_info.html" target="showframe">Company Information</a>
-        <br>
-        <br>
-        <br>
-        <a href="general_info.html" target="showframe">General Information</a>
-        <br>
-        <br>
-        <a href="key_associate_forms.html" target="showframe">Key Associate Forms</a>
-        <br>
-        <br>
-        <a href="targets_goals.html" target="showframe">Targets and Goals</a>
-        <br>
-        <br>
-        <a href="buyer_info.html" target="showframe">Buyer Information</a>
-        <br>
-        <br>
-        <a href="reports.html" target="showframe">Reports</a>
+        <a href="company_info" target="showframe">Company Information</a>
         <br>
         <br>
         <br>
-     	<a href="key_forms.html" target="showframe">Key Business Forms</a>
+        <a href="general_info" target="showframe">General Information</a>
         <br>
         <br>
-        <a href="iso.html" target="showframe">ISO</a>
+        <a href="key_associate_forms" target="showframe">Key Associate Forms</a>
         <br>
         <br>
-        <a href="sourcing.html" target="showframe">Sourcing</a>
+        <a href="targets_goals" target="showframe">Targets and Goals</a>
         <br>
         <br>
-        <a href="dept_training.html" target="showframe">Department Training</a>
+        <a href="buyer_info" target="showframe">Buyer Information</a>
+        <br>
+        <br>
+        <a href="reports" target="showframe">Reports</a>
+        <br>
+        <br>
+        <br>
+     	<a href="key_forms" target="showframe">Key Business Forms</a>
+        <br>
+        <br>
+        <a href="iso" target="showframe">ISO</a>
+        <br>
+        <br>
+        <a href="sourcing" target="showframe">Sourcing</a>
+        <br>
+        <br>
+        <a href="dept_training" target="showframe">Department Training</a>
         <br>
 	<br>
 	<a href="quality_info" target="showframe">Quality Information</a>
