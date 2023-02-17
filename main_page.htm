@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html>
     <frameset cols="200,*">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+        </div>
+
+        <div>
+            <label for="pass">Password (8 characters minimum):</label>
+            <input type="password" id="pass" name="password"
+           minlength="8" required>
+        </div>
+
+        <input type="submit" value="Sign in">
+        
         <frame src="Frame_1.htm"></frame>
         <frame src="Frame_2.htm" name="showframe">
         </frame>
