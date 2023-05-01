@@ -1,6 +1,58 @@
 <!DOCTYPE html>
 <html> 
 	
+	//dependances : Jquery / 
+
+/*overrite :contains CaseInsensitive*/
+jQuery.expr[':'].Contains = function(a, i, m) {
+	return jQuery(a).text().toUpperCase()
+			.indexOf(m[3].toUpperCase()) >= 0;
+};
+jQuery.expr[':'].contains = function(a, i, m) {
+	return jQuery(a).text().toUpperCase()
+			.indexOf(m[3].toUpperCase()) >= 0;
+};
+/**
+.hidden_search{
+	display: none;
+}
+**/
+
+
+
+var searchElements = ['.elem_1', '.elem_2', '.elem_3', '.elem_n'];
+
+if(searchElements != undefined){
+	$('.search input').keyup(function(){
+		filterPagi['search'] = '';
+		var searchTerm = $(this).val();
+		if(searchTerm.length >= 2){
+			filterPagi['search'] = ':contains('+searchTerm+')';
+			$('.list').find('.line').addClass('hidden_search');
+			
+			for(key in searchElements){
+				var resultElements = $(searchElements[key]+':contains('+searchTerm+')');
+				resultElements.parents('.table_row').removeClass('hidden_search');				
+				resultElements.each(function(){
+					var original = $(this).text();
+						var searchRegex = new RegExp(searchTerm, 'gi');
+					$(this).html(original.replace(searchRegex, '<u>'+searchTerm+'</u>'));
+					if(!$(this).is('[data-original]')){ $(this).attr('data-original', original); }
+				});
+			}
+		}else{
+			$('.hidden_search').removeClass('hidden_search');
+			$('[data-original]').each(function(){
+				$(this).text($(this).attr('data-original'));
+			});
+		}
+		if($('.pagi_js').length>0){
+			//changePagi(true);
+		}
+		//checkEmptyArray();
+	});
+}
+	
 	<body bgcolor="00488f">
         <center>
             <span style="font-family:Helvetica Neue Lt Std">
